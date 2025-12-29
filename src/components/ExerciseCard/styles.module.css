@@ -1,0 +1,32 @@
+.exerciseCard {
+  margin: 1.5rem 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.exerciseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: var(--ifm-background-surface-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.exerciseTitle {
+  font-weight: 600;
+}
+
+.exerciseDifficulty {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.exerciseContent {
+  padding: 1rem;
+}

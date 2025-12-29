@@ -1,0 +1,26 @@
+.callout {
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.calloutHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.calloutIcon {
+  font-size: 1.2rem;
+}
+
+.calloutTitle {
+  font-weight: 600;
+}
+
+.calloutContent {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
