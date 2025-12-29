@@ -137,7 +137,7 @@ flowchart TD
 
 ---
 
-**Previous:** [Exercises](./exercises) | **[Back to Index](../../intro)**
+**Previous:** [Exercises](./exercises) | **[Back to Introduction](./introduction)**
 
 ---
 
