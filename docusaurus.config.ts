@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   url: 'https://your-site.com',
   baseUrl: '/',
-  organizationName: 'your-org',
+  organizationName: 'Zayyan-Sheikh',
   projectName: 'your-repo',
   onBrokenLinks: 'warn',
   markdown: {
@@ -53,13 +53,7 @@ const config: Config = {
           label: 'Multi-Agent Systems',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorials',
-        },
-        {
-          href: 'https://github.com/your-org/your-repo',
+          href: 'https://github.com/zyanshykh/book',
           label: 'GitHub',
           position: 'right',
         },
