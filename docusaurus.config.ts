@@ -61,7 +61,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} AI Systems Book. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AI-book-systems. Built with Docus.`,
     },
     prism: {
       theme: prismThemes.github,
