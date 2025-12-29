@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'AI Systems Book',
+  title: 'AI-Book-Systems',
   tagline: 'Learn about multi-agent AI systems',
   favicon: 'img/favicon.ico',
   url: 'https://your-site.com',
