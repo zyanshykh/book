@@ -9,7 +9,7 @@ const config: Config = {
   url: 'https://your-site.com',
   baseUrl: '/',
   organizationName: 'Zayyan-Sheikh',
-  projectName: 'your-repo',
+  projectName: 'book',
   onBrokenLinks: 'warn',
   markdown: {
     mermaid: true,
