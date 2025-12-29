@@ -44,7 +44,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'AI Systems Book',
+      title: 'AI-Book-systems',
       items: [
         {
           type: 'docSidebar',
