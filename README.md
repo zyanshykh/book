@@ -1,41 +1,82 @@
-# Website
+# AI-Book-Systems
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Learn about multi-agent AI systems through this interactive documentation.
 
-## Installation
+## About This Project
+
+This is an educational resource covering multi-agent AI systems, including:
+
+- **Introduction** - Core concepts of autonomous agents
+- **Architectures** - Hierarchical, peer-to-peer, and supervisor-worker patterns
+- **Working Example** - Practical implementation guide
+- **Best Practices** - Guidelines for building robust systems
+- **Exercises** - Hands-on challenges to test your knowledge
+
+## Quick Start
+
+### Installation
 
 ```bash
-npm
+npm install
 ```
 
-## Local Development
+### Local Development
 
 ```bash
 npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Starts the local development server at `http://localhost:3000`.
 
-## Build
+### Build for Production
 
 ```bash
 npm build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Generates static content in the `build` directory.
+
+### Preview Production Build
+
+```bash
+npm run serve
+```
 
 ## Deployment
 
-Using SSH:
+Deploy to GitHub Pages:
 
 ```bash
+# Using SSH
 USE_SSH=true npm deploy
-```
 
-Not using SSH:
-
-```bash
+# Or using GitHub username
 GIT_USER=<Your GitHub username> npm deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Project Structure
+
+```
+docs/
+├── multi-agent-systems/
+│   ├── 01-introduction.md    # Core concepts
+│   ├── 02-architectures.md   # Architecture patterns
+│   ├── 03-example.md         # Practical example
+│   ├── 04-best-practices.md  # Guidelines
+│   ├── 05-exercises.md       # Challenges
+│   └── 06-summary.md         # Chapter summary
+```
+
+## Tech Stack
+
+- [Docusaurus](https://docusaurus.io/) - Static site generator
+- [Mermaid](https://mermaid.js.org/) - Diagrams as code
+- React + Markdown
+
+## Contributing
+
+Contributions welcome! Feel free to open issues or submit PRs.
+
+## License
+
+MIT
