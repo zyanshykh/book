@@ -67,7 +67,7 @@ docs/
 │   └── 06-summary.md         # Chapter summary
 ```
 
-## Tech Stack
+## Tech-Stack
 
 - [Docusaurus](https://docusaurus.io/) - Static site generator
 - [Mermaid](https://mermaid.js.org/) - Diagrams as code
